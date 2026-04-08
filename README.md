@@ -77,13 +77,13 @@ Workflow steps and parameters:
 - Pores detection
   - Thresholding method: segments membrane pores
   - Dilation disk size: expands pore regions for robust detection
-- Membrane position → Determines membrane position based on local pore signal variation
-  - Window size: defines local region for analysis
+- Membrane position → Determines membrane position based on local pore signal variation using a sliding window approach
+  - Window size: defines the size of the sliding window
   - Step size: controls resolution of sliding window across image
 - Tissue damage
   - Threshold: binarizes signal to detect damaged regions
   - Minimum area: removes small artifacts
-  - Closing disk size: fills gaps and refines დაზ damage regions
+  - Closing disk size: fills gaps and refines damage regions
 - Nuclei enhancement & 3D segmentation
   - Mean filter disk size: enhances nuclei signal
   - Thresholding method: segments nuclei
