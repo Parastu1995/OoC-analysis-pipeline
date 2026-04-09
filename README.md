@@ -37,7 +37,7 @@ Handles import, annotation, and channel splitting of multi-channel OoC datasets.
 **Output:** Annotated datasets with split channels and corresponding masks, ready for downstream analysis.
 
 ### **2. Epithelial Compartment Analysis**
-The pipeline offers several analyses for the epithelial side of the chip, namely, microcolony morphometrics, tissue architecture and spatial analysis, as described in our previous paper `link to paper`. Parameters details of each compartments are provided below.
+The pipeline offers several analyses for the epithelial side of the chip, namely, microcolony morphometrics, tissue architecture and spatial analysis, as described in our previous paper [https://doi.org/10.1016/j.biomaterials.2024.122525](https://doi.org/10.1016/j.biomaterials.2024.122525). Parameters details of each compartments are provided below.
 
 #### **Microcolony morphometrics**
 
@@ -119,6 +119,8 @@ Workflow steps:
 The pipeline performs a 2d segmentation of endothelial cells and macrophages using pretarined Cellpose model.
 
 **Output:** Segmentation masks, cell density, and morphometric measurements for nuclei and macrophages.
+
+### **4. Results export**
 
 ## Implementation
 
